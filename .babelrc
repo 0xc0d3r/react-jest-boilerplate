@@ -1,3 +1,9 @@
 {
-  "presets": ["env", "react"]
+  "presets": ["react", "env"],
+  "env": {
+    "development": {
+      "plugins": ["transform-class-properties"]
+    }
+  },
+  "plugins": ["transform-class-properties"]
 }
